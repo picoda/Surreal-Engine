@@ -83,5 +83,5 @@ class Mesh{
     public: 
         auto getVertices(){return vertex_buffer;};
         auto getColors(){return color_buffer;};
-        Mesh();
+        Mesh(){};
 };

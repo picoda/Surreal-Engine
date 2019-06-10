@@ -260,6 +260,7 @@ CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o: packages/glm-0.9.7.1/glm/vec4.
 CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o: packages/glm-0.9.7.1/glm/vector_relational.hpp
 
 CMakeFiles/3DEngine.dir/src/main.cpp.o: src/headers/controls.h
+CMakeFiles/3DEngine.dir/src/main.cpp.o: src/headers/mesh.h
 CMakeFiles/3DEngine.dir/src/main.cpp.o: src/headers/shader.h
 CMakeFiles/3DEngine.dir/src/main.cpp.o: src/main.cpp
 CMakeFiles/3DEngine.dir/src/main.cpp.o: packages/glew-1.13.0/include/GL/glew.h

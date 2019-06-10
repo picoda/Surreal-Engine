@@ -34,6 +34,8 @@ glm/glm.hpp
 GLFW/glfw3.h
 -
 
+/home/agah/Desktop/Engine/src/headers/mesh.h
+
 /home/agah/Desktop/Engine/src/headers/shader.cpp
 stdio.h
 -
@@ -83,6 +85,8 @@ headers/shader.h
 /home/agah/Desktop/Engine/src/headers/shader.h
 headers/controls.h
 /home/agah/Desktop/Engine/src/headers/controls.h
+headers/mesh.h
+/home/agah/Desktop/Engine/src/headers/mesh.h
 
 packages/glew-1.13.0/include/GL/glew.h
 stddef.h
