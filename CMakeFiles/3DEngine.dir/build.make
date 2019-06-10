@@ -57,9 +57,81 @@ include CMakeFiles/3DEngine.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/3DEngine.dir/flags.make
 
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o: src/headers/controls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o -c /home/agah/Desktop/Engine/src/headers/controls.cpp
+
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/src/headers/controls.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agah/Desktop/Engine/src/headers/controls.cpp > CMakeFiles/3DEngine.dir/src/headers/controls.cpp.i
+
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/src/headers/controls.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agah/Desktop/Engine/src/headers/controls.cpp -o CMakeFiles/3DEngine.dir/src/headers/controls.cpp.s
+
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.requires:
+
+.PHONY : CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.requires
+
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.provides: CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.requires
+	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.provides.build
+.PHONY : CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.provides
+
+CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.provides.build: CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o
+
+
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o: src/headers/shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o -c /home/agah/Desktop/Engine/src/headers/shader.cpp
+
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/src/headers/shader.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agah/Desktop/Engine/src/headers/shader.cpp > CMakeFiles/3DEngine.dir/src/headers/shader.cpp.i
+
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/src/headers/shader.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agah/Desktop/Engine/src/headers/shader.cpp -o CMakeFiles/3DEngine.dir/src/headers/shader.cpp.s
+
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.requires:
+
+.PHONY : CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.requires
+
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.provides: CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.requires
+	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.provides.build
+.PHONY : CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.provides
+
+CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.provides.build: CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o
+
+
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o: CMakeFiles/3DEngine.dir/flags.make
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o: src/headers/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o -c /home/agah/Desktop/Engine/src/headers/texture.cpp
+
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/3DEngine.dir/src/headers/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/agah/Desktop/Engine/src/headers/texture.cpp > CMakeFiles/3DEngine.dir/src/headers/texture.cpp.i
+
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/3DEngine.dir/src/headers/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/agah/Desktop/Engine/src/headers/texture.cpp -o CMakeFiles/3DEngine.dir/src/headers/texture.cpp.s
+
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.requires:
+
+.PHONY : CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.requires
+
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.provides: CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.requires
+	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.provides.build
+.PHONY : CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.provides
+
+CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.provides.build: CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o
+
+
 CMakeFiles/3DEngine.dir/src/main.cpp.o: CMakeFiles/3DEngine.dir/flags.make
 CMakeFiles/3DEngine.dir/src/main.cpp.o: src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/3DEngine.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/3DEngine.dir/src/main.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/3DEngine.dir/src/main.cpp.o -c /home/agah/Desktop/Engine/src/main.cpp
 
 CMakeFiles/3DEngine.dir/src/main.cpp.i: cmake_force
@@ -83,11 +155,17 @@ CMakeFiles/3DEngine.dir/src/main.cpp.o.provides.build: CMakeFiles/3DEngine.dir/s
 
 # Object files for target 3DEngine
 3DEngine_OBJECTS = \
+"CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o" \
+"CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o" \
+"CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o" \
 "CMakeFiles/3DEngine.dir/src/main.cpp.o"
 
 # External object files for target 3DEngine
 3DEngine_EXTERNAL_OBJECTS =
 
+build/3DEngine: CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o
+build/3DEngine: CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o
+build/3DEngine: CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o
 build/3DEngine: CMakeFiles/3DEngine.dir/src/main.cpp.o
 build/3DEngine: CMakeFiles/3DEngine.dir/build.make
 build/3DEngine: /usr/lib/x86_64-linux-gnu/libGL.so
@@ -113,7 +191,7 @@ build/3DEngine: /usr/lib/x86_64-linux-gnu/libXcursor.so
 build/3DEngine: /usr/lib/x86_64-linux-gnu/libGL.so
 build/3DEngine: /usr/lib/x86_64-linux-gnu/libGLU.so
 build/3DEngine: CMakeFiles/3DEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable build/3DEngine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/agah/Desktop/Engine/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable build/3DEngine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/3DEngine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +199,9 @@ CMakeFiles/3DEngine.dir/build: build/3DEngine
 
 .PHONY : CMakeFiles/3DEngine.dir/build
 
+CMakeFiles/3DEngine.dir/requires: CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o.requires
+CMakeFiles/3DEngine.dir/requires: CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o.requires
+CMakeFiles/3DEngine.dir/requires: CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o.requires
 CMakeFiles/3DEngine.dir/requires: CMakeFiles/3DEngine.dir/src/main.cpp.o.requires
 
 .PHONY : CMakeFiles/3DEngine.dir/requires

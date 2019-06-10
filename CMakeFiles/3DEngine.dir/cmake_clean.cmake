@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o"
+  "CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o"
+  "CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o"
   "CMakeFiles/3DEngine.dir/src/main.cpp.o"
   "build/3DEngine.pdb"
   "build/3DEngine"

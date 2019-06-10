@@ -37,10 +37,16 @@ add_definitions(
 
 file(GLOB_RECURSE SOURCE_FILES 
  ${APP_DIR}/src/*.c
- ${APP_DIR}/src/*.cpp)
- 
+ ${APP_DIR}/src/*.cpp
+ ${APP_DIR}/src/TextureFragmentShader.fragmentshader
+ ${APP_DIR}/src/TransformVertexShader.vertexshader
+ ${APP_DIR}/src/uvtemplate.DDS)
+
+
 file(GLOB_RECURSE HEADER_FILES 
  ${APP_DIR}/src/headers/*.h
+ ${APP_DIR}/src/headers/*.hpp
+ ${APP_DIR}/src/headers/*.cpp
  ${APP_DIR}/src/headers/*.hpp)
 
 set(EXECUTABLE_OUTPUT_PATH "${APP_DIR}/build")
