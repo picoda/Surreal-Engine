@@ -598,6 +598,33 @@ LinearMath/fast:
 	$(MAKE) -f packages/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build.make packages/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/LinearMath.dir/build
 .PHONY : LinearMath/fast
 
+src/headers/camera.o: src/headers/camera.cpp.o
+
+.PHONY : src/headers/camera.o
+
+# target to build an object file
+src/headers/camera.cpp.o:
+	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/camera.cpp.o
+.PHONY : src/headers/camera.cpp.o
+
+src/headers/camera.i: src/headers/camera.cpp.i
+
+.PHONY : src/headers/camera.i
+
+# target to preprocess a source file
+src/headers/camera.cpp.i:
+	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/camera.cpp.i
+.PHONY : src/headers/camera.cpp.i
+
+src/headers/camera.s: src/headers/camera.cpp.s
+
+.PHONY : src/headers/camera.s
+
+# target to generate assembly for a file
+src/headers/camera.cpp.s:
+	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/camera.cpp.s
+.PHONY : src/headers/camera.cpp.s
+
 src/headers/controls.o: src/headers/controls.cpp.o
 
 .PHONY : src/headers/controls.o
@@ -651,33 +678,6 @@ src/headers/shader.s: src/headers/shader.cpp.s
 src/headers/shader.cpp.s:
 	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/shader.cpp.s
 .PHONY : src/headers/shader.cpp.s
-
-src/headers/texture.o: src/headers/texture.cpp.o
-
-.PHONY : src/headers/texture.o
-
-# target to build an object file
-src/headers/texture.cpp.o:
-	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o
-.PHONY : src/headers/texture.cpp.o
-
-src/headers/texture.i: src/headers/texture.cpp.i
-
-.PHONY : src/headers/texture.i
-
-# target to preprocess a source file
-src/headers/texture.cpp.i:
-	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/texture.cpp.i
-.PHONY : src/headers/texture.cpp.i
-
-src/headers/texture.s: src/headers/texture.cpp.s
-
-.PHONY : src/headers/texture.s
-
-# target to generate assembly for a file
-src/headers/texture.cpp.s:
-	$(MAKE) -f CMakeFiles/3DEngine.dir/build.make CMakeFiles/3DEngine.dir/src/headers/texture.cpp.s
-.PHONY : src/headers/texture.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -752,15 +752,15 @@ help:
 	@echo "... BulletCollision"
 	@echo "... BulletDynamics"
 	@echo "... LinearMath"
+	@echo "... src/headers/camera.o"
+	@echo "... src/headers/camera.i"
+	@echo "... src/headers/camera.s"
 	@echo "... src/headers/controls.o"
 	@echo "... src/headers/controls.i"
 	@echo "... src/headers/controls.s"
 	@echo "... src/headers/shader.o"
 	@echo "... src/headers/shader.i"
 	@echo "... src/headers/shader.s"
-	@echo "... src/headers/texture.o"
-	@echo "... src/headers/texture.i"
-	@echo "... src/headers/texture.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

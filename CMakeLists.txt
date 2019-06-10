@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.8)
 
 set(PROJECT_NAME 3DEngine)
-project(${PROJECT_NAME} C CXX) 
+project(${PROJECT_NAME}) 
 
 find_package(OpenGL REQUIRED)
 
@@ -37,10 +37,7 @@ add_definitions(
 
 file(GLOB_RECURSE SOURCE_FILES 
  ${APP_DIR}/src/*.c
- ${APP_DIR}/src/*.cpp
- ${APP_DIR}/src/TextureFragmentShader.fragmentshader
- ${APP_DIR}/src/TransformVertexShader.vertexshader
- ${APP_DIR}/src/uvtemplate.DDS)
+ ${APP_DIR}/src/*.cpp)
 
 
 file(GLOB_RECURSE HEADER_FILES 
@@ -51,6 +48,6 @@ file(GLOB_RECURSE HEADER_FILES
 
 set(EXECUTABLE_OUTPUT_PATH "${APP_DIR}/build")
 
-add_executable(${PROJECT_NAME} ${HEADER_FILES} ${SOURCE_FILES})
+add_executable(${PROJECT_NAME}  ${HEADER_FILES} ${SOURCE_FILES})
 
 target_link_libraries(${PROJECT_NAME} ${ALL_LIBS})

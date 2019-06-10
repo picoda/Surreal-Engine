@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/agah/Desktop/Engine/src/headers/camera.cpp" "/home/agah/Desktop/Engine/CMakeFiles/3DEngine.dir/src/headers/camera.cpp.o"
   "/home/agah/Desktop/Engine/src/headers/controls.cpp" "/home/agah/Desktop/Engine/CMakeFiles/3DEngine.dir/src/headers/controls.cpp.o"
   "/home/agah/Desktop/Engine/src/headers/shader.cpp" "/home/agah/Desktop/Engine/CMakeFiles/3DEngine.dir/src/headers/shader.cpp.o"
-  "/home/agah/Desktop/Engine/src/headers/texture.cpp" "/home/agah/Desktop/Engine/CMakeFiles/3DEngine.dir/src/headers/texture.cpp.o"
   "/home/agah/Desktop/Engine/src/main.cpp" "/home/agah/Desktop/Engine/CMakeFiles/3DEngine.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
